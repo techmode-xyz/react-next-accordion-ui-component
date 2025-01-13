@@ -1,0 +1,72 @@
+/* Resetting styles */
+
+/* Resetting margins and paddings */
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Resetting lists */
+ul,
+ol,
+summary {
+  list-style: none;
+}
+
+/* Resetting hyperlinks */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Resetting forms */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  resize: none;
+}
+
+/* Reset image sizes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Reset the alignment of vertical element shapes */
+input[type='checkbox'],
+input[type='radio'],
+input[type='file'] {
+  vertical-align: middle;
+}

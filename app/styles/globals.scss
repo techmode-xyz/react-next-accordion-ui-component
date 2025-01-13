@@ -1,0 +1,37 @@
+@import "./reset.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 15px;
+}
+
+.accordion {
+  width: clamp(0px, 100%, 290px);
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+
+  &__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+
+    & > svg {
+      transition: 0.5s;
+    }
+
+    &.active > svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__content {
+    & > div > p:first-child {
+      padding-top: 15px;
+    }
+  }
+}
